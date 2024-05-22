@@ -1,0 +1,94 @@
+.hero::before{
+  content: "";
+  background-image: url(../images/hro-bg.png);
+  background-repeat:no-repeat ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+    bottom: 0;
+    background-position: 43%;
+
+}
+.hero-z{
+  z-index: 0;
+}
+
+.it {
+  background: #102c5b;
+}
+
+.working {
+  background: #102c5b;
+  width: 191px;
+}
+
+section.background {
+  background: #102c5b;
+}
+
+/*min-width320*/
+@media (min-width: 320px) {
+  .hero{
+  background-image: url(../images/banner.png); background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .who-col-bg {
+    background-image: url(../images/who.png);
+    background-repeat: no-repeat;
+    height: 530px;
+    width: auto;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+  }
+
+  img.format-img {
+    max-width: 100px;
+    margin: auto;
+    padding-top: 15px;
+  }
+
+  .working {
+    position: absolute;
+    top: 471px;
+    right: 0;
+  }
+
+  .who-professional {
+    padding-top: 60px;
+  }
+
+  .who-width {
+    width: 150px;
+  }
+
+  .offer-col-bg {
+    background-image: url(../images/offer.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 400px;
+    }
+  
+  .offer-bg {
+    width: 230px;
+    height: 301px;
+    background: #1bb275;
+    position: absolute;
+    top: 173px;
+    right: 0;
+  }
+  .services{
+    padding-top: 67px;
+    padding-bottom: 67px;
+  }
+
+}
+
